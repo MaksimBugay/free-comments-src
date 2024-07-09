@@ -1,0 +1,83 @@
+.nice-hint {
+    position: relative;
+    /*width: 30px;*/
+    margin-top: 5px;
+    width: auto;
+    height: 30px;
+    line-height: 20px; /* Adjust line-height to match new height */
+    text-align: center;
+    color: #252B37;
+    background-color: transparent;
+    animation: textColor 8s ease infinite;
+}
+
+.nice-hint-font {
+    font-size: 30px;
+    /*font-family: "Sixtyfour", sans-serif;*/
+    font-family: "Pacifico", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nice-hint:after {
+    position: absolute;
+    content: "";
+    top: 5vw; /* You might want to adjust this based on the new size */
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transform: scale(0.75); /* Consider how this scale affects your new size */
+    -webkit-filter: blur(5vw); /* Adjust if needed for your design */
+    -moz-filter: blur(5vw);
+    -ms-filter: blur(5vw);
+    filter: blur(5vw);
+    background: linear-gradient(270deg, /*#0fffc1*/ yellow, /*#7e0fff*/ blue, yellow);
+    background-size: 200% 200%;
+    animation: animateGlow 10s ease infinite;
+}
+
+@keyframes animateGlow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes textColor {
+    0% {
+        color: yellow;
+    }
+    12% {
+        color: orange;
+    }
+    24% {
+        color: mediumspringgreen;
+    }
+    36% {
+        color: deepskyblue;
+    }
+    48% {
+        color: navy;
+    }
+    60% {
+        color: deepskyblue;
+    }
+    72% {
+        color: mediumspringgreen;
+    }
+    85% {
+        color: orange;
+    }
+    100% {
+        color: yellow;
+    }
+}

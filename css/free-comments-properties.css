@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.selected-avatar {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#popup-content {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+}
+
+#popup-content > * {
+    margin: 5px;
+    padding: 5px;
+}
+
+#nickname {
+    margin-bottom: 1px;
+}
+#avatar-dropdown, #use-dynamic-link-discovery-flag, #start-button, #manifesto-button {
+    margin-bottom: 10px;
+}
+
+.dropdown {
+    width: 90%;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    min-height: 200px;
+    max-height: 300px;
+    overflow-y: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content .show {
+    display: block;
+}
+
+.dropdown-content .option {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    cursor: pointer;
+    width: 300px;
+}
+
+.dropdown-content .option:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown .show { display: block}
+
+.option img {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+input[type="checkbox"] {
+    margin-top: 20px;
+}
+
+button {
+    height: 45px;
+    position: absolute;
+    background-color: #CD853F; /* Light brown */
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #B5713F; /* Slightly darker shade for hover */
+}
+
+.donate-button {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 480px;
+    left: 40px;
+    background-color: #f77a24; /* Vibrant orange */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px #c76320; /* Slightly darker shade of the button color for depth */
+}
+
+.donate-button:hover {
+    background-color: #fa8e57; /* Lighter shade */
+    box-shadow: 0 5px #c76320;
+}

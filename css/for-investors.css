@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f4f4f4;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 700px;
+    height: 100%;
+    color: navy;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0;
+    background-image: url('../images/for-investors.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.for-investors-sheet {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.container h1, h2 {
+    /*color: #007BFF;*/
+    color: darkgoldenrod;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+    /*background: #007BFF;*/
+    background-color: darkgoldenrod;
+    color: #fff;
+}
+
+p {
+    margin: 20px 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li strong {
+    font-weight: bold;
+}
+li {
+    margin-bottom: 10px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button:hover {
+    background: #218838;
+}
+.footer-text {
+    font-size: 0.9em;
+}
+
+.footer-link {
+    color: white;
+    font-weight: bold;
+}
+
+.invest-section {
+    font-family: 'Montserrat', sans-serif;
+    color: seagreen; /* White text color for contrast */
+    font-weight: bold;
+    padding: 20px; /* Spacing inside the section */
+    margin: 20px 0; /* Space around the section */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center the text for emphasis */
+    background-color: white;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.invest-section h2 {
+    font-size: 2em; /* Larger font size for the heading */
+    margin-bottom: 15px; /* Extra space below the heading */
+}
+
+.invest-section p {
+    font-size: 1.2em; /* Slightly larger text for readability */
+    line-height: 1.5; /* Increased line height for better legibility */
+}
+
+/* wallets*/
+.wallet-item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.wallet-item:last-child {
+    margin-bottom: 0;
+}
+.wallet-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.wallet-address {
+    font-size: 16px;
+    word-break: break-all;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 4px;
+}
+.wallet-icon {
+    margin-right: 10px;
+}

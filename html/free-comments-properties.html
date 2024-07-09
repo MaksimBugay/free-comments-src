@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Free Comments properties</title>
+    <link rel="stylesheet" href="../css/free-comments-properties.css">
+</head>
+<body style="background-image: url('../images/freedom.png')">
+<h1>Free Comments properties</h1>
+<div id="popup-content">
+    <label for="nickname" style="margin-bottom: 0;padding-bottom: 0">Nick name</label>
+    <input type="text" id="nickname" placeholder="Enter your nick name"/>
+    <label for="avatar-dropdown" style="margin-bottom: 0;padding-bottom: 0">Avatar</label>
+    <div id="avatar-dropdown" class="dropdown">
+        <div id="selected-avatar" data-avatar-code="16">Selected avatar: Default</div>
+        <div class="dropdown-content">
+            <div class="option" data-avatar-code="0"><img src="../images/avatars/woman1.png" alt="Avatar 1"> Avatar 1</div>
+            <div class="option" data-avatar-code="1"><img src="../images/avatars/woman2.png" alt="Avatar 2"> Avatar 2</div>
+            <div class="option" data-avatar-code="2"><img src="../images/avatars/woman3.png" alt="Avatar 3"> Avatar 3</div>
+            <div class="option" data-avatar-code="3"><img src="../images/avatars/woman4.png" alt="Avatar 4"> Avatar 4</div>
+            <div class="option" data-avatar-code="4"><img src="../images/avatars/woman5.png" alt="Avatar 5"> Avatar 5</div>
+            <div class="option" data-avatar-code="5"><img src="../images/avatars/woman6.png" alt="Avatar 6"> Avatar 6</div>
+            <div class="option" data-avatar-code="6"><img src="../images/avatars/woman7.png" alt="Avatar 7"> Avatar 7</div>
+            <div class="option" data-avatar-code="7"><img src="../images/avatars/woman8.png" alt="Avatar 8"> Avatar 8</div>
+            <div class="option" data-avatar-code="8"><img src="../images/avatars/man1.png" alt="Avatar 9"> Avatar 9</div>
+            <div class="option" data-avatar-code="9"><img src="../images/avatars/man2.png" alt="Avatar 10"> Avatar 10</div>
+            <div class="option" data-avatar-code="10"><img src="../images/avatars/man3.png" alt="Avatar 11"> Avatar 11</div>
+            <div class="option" data-avatar-code="11"><img src="../images/avatars/man4.png" alt="Avatar 12"> Avatar 12</div>
+            <div class="option" data-avatar-code="12"><img src="../images/avatars/man5.png" alt="Avatar 13"> Avatar 13</div>
+            <div class="option" data-avatar-code="13"><img src="../images/avatars/man6.png" alt="Avatar 14"> Avatar 14</div>
+            <div class="option" data-avatar-code="14"><img src="../images/avatars/man7.png" alt="Avatar 15"> Avatar 15</div>
+            <div class="option" data-avatar-code="15"><img src="../images/avatars/man8.png" alt="Avatar 16"> Avatar 16</div>
+            <!-- Add more avatars as needed -->
+        </div>
+    </div>
+    <label for="signature" style="margin-bottom: 0;padding-bottom: 0">Signature</label>
+    <input type="text" id="signature" placeholder="Enter your unique signature phrase"/>
+    <label for="web-site" style="margin-bottom: 0;padding-bottom: 0">Website</label>
+    <input type="text" id="web-site" style="margin-bottom: 0;padding-bottom: 0" placeholder="Enter your favorite social network profile url"/>
+    <div style="">
+        <label style="display: inline-block">
+            <input type="checkbox" id="allow-dynamic-link-resolving"/>
+            Allow dynamic link resolving
+        </label>
+    </div>
+    <button id="donate-button" class="donate-button" aria-label="Donate, it is still possible to change rules of the Game ">Donate</button>
+    <button id="manifesto-button">Manifesto</button>
+    <button id="start-button">Start</button>
+</div>
+<script src="../js/uuid.min.js"></script>
+<script src="../common-utils.js"></script>
+<script src="../free-comments-properties.js"></script>
+<script src="../js/free-comments-signature.js"></script>
+</body>
+</html>

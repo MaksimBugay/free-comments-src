@@ -1,0 +1,32 @@
+.free-comments-link:hover {
+    cursor: pointer;
+    color: darkblue;
+    text-decoration: none;
+}
+
+.free-comments-post-hint {
+    z-index: 99999;
+}
+
+.free-comments-post-content-hint {
+    position: absolute;
+    z-index: 99999;
+}
+
+.free-comments-hint {
+    width: auto;
+    max-width: 100%;
+    min-width: 40px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    min-height: 25px;
+    max-height: 50%;
+    position: absolute;
+    color: black;
+    font-size: medium;
+    /*z-index: 9999;*/
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}

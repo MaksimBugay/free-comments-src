@@ -1,0 +1,84 @@
+.top-left-corner-panel {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 45px;
+    height: 45px;
+    background-color: #f2f2f2;
+    padding: 0;
+    margin-top: 5px;
+    margin-left: 110px;
+    border: none;
+    z-index: 9999;
+}
+
+.image-button {
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid gray;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*================fire button========================*/
+.fire-div {
+    text-align: center;
+}
+
+.fire-text {
+    background-color: transparent;
+    color: orangered;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    border: none;
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    outline: none;
+}
+
+.fire-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    outline: none;
+}
+
+.flames {
+    font-size: 24px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: flicker 1s linear infinite;
+}
+
+@keyframes flicker {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}

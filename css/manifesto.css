@@ -1,0 +1,52 @@
+body {
+    background-color: orange;
+}
+
+.manifesto-container {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 700px;
+    height: 100%;
+    color: navy;
+    font-weight: bold;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0;
+    background-image: url('../images/freedom-torch.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.manifesto {
+    max-width: 800px;
+    margin: 40px auto;
+    background: lightskyblue;
+    /*padding: 20px;*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.manifesto-container h1 {
+    color: goldenrod;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li strong {
+    color: #007BFF;
+}
